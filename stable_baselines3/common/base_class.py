@@ -111,7 +111,7 @@ class BaseAlgorithm(ABC):
 
         self.device = get_device(device)
         if verbose >= 1:
-            print(f"Using {self.device} device")
+            print(f"Using {self.device} device using for robust tests!")
 
         self.env = None  # type: Optional[GymEnv]
         # get VecNormalize object if needed
